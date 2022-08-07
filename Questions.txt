@@ -1,0 +1,3 @@
+how to add objects to TreeSet
+
+how to stop threads running as service.execute() of ExecutorService

@@ -1,0 +1,8 @@
+//Isolation Level
+// DEFAULT---->by default same is applied with all transaction
+//READ_UNCOMMITTED---->A constant indicating that dirty reads, non-repeatable reads and phantom reads can occur
+//READ_COMMITTED---->A constant indicating that dirty reads are prevented; non-repeatable reads and phantom reads can occur
+//is by default in postgress,SQL and Oracle
+//REPEATABLE_READ--->A constant indicating that dirty reads and non-repeatable reads are prevented; phantom reads can occur.
+//default in mysql, oracle doesnot suppot it
+//SERIALIZABLE--->A constant indicating that dirty reads, non-repeatable reads and phantomreads are prevented

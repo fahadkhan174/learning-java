@@ -1,0 +1,7 @@
+//REQUIRED---->check Active Transaction--->same transaction---> not existing transaction--->creates new transaction
+//SUPPORTS--->check Active ----->same transaction------>not existing transaction ----->NonTransactional
+//MANDATORY--->Check Active --->same transaction----->not existing transaction---->throws error--->illegalTransactionStateException
+//NEVER--->Check Active---->throws error---->illegalTransactionStateException
+//NOT_SUPPORTED--->checks Active--->Suspends Current transaction executes business logic Non transaction
+//REQUIRES_NEW--->checks Active--->Suspends Current transaction---->executes with new created transaction
+//NESTED---->checks Active---->if nested creates save point for roll back--->not existing transaction--->Required
